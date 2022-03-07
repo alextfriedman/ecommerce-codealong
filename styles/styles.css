@@ -403,3 +403,18 @@ button.menuIcon:hover {
 button.menuIcon:focus {
   background-color: transparent;
 }
+
+/* Announcement bar styles */
+.announcements {
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 1px solid rgba(8, 75, 109, 0.08);
+}
+
+.navBar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid rgba(8, 75, 109, 0.08);
+  background-color: #fff;
+}
