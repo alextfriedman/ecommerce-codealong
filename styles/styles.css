@@ -560,6 +560,25 @@ header .headerContent .contentContainer {
   margin: 0 auto;
 }
 
+.contactHeader {
+  background-color: #fff5f5;
+  padding-top: 120px;
+}
+.contactHeader .contactContent {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.contactHeader::after {
+  content: "";
+  width: 100%;
+  height: 150px;
+  background-image: url(../assets/wave.svg);
+  background-color: #fff5f5;
+  background-repeat: no-repeat;
+  background-size: 100% 150px;
+}
+
 /* Instagram gallery section */
 .gallery {
   background-color: #f8fbf3;
@@ -748,4 +767,27 @@ footer .social a:hover, footer .social a:focus {
   footer .socialIcons {
     margin-bottom: 30px;
   }
+}
+.mapFormContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.mapFormContainer .map {
+  width: 50%;
+}
+.mapFormContainer .map iframe {
+  width: 100%;
+}
+
+.contactForm {
+  width: calc(50% - 70px);
+  margin-left: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
