@@ -27,9 +27,22 @@
 @media (max-width: 800px) {
     /* all of our styles for TABLET devices will go within this breakpoint */
     footer {
-        .newsletter{
+        .newsletter {
             width: 70%;
         }
+    }
+
+    .mapFormContainer {
+        flex-direction: column;
+        align-items: center;
+        .map{
+            margin-bottom: 50px;
+            width: 85%;
+        }
+    }
+    .contactForm {
+        width: 85%;
+        margin-left: 0;
     }
 }
 
@@ -39,7 +52,7 @@
         display: none;
     }
 
-    .slideOutNav{
+    .slideOutNav {
         width: 100%;
         .mainMenu {
             a {
